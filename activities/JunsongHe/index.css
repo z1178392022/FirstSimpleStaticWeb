@@ -1,0 +1,48 @@
+*{box-sizing: border-box;}
+.card1{
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px white;
+  border: solid white 0.015624px;
+}
+.row{ margin-top: 30px;}
+
+.subcol{
+  float: left;
+  margin-top: 20px;
+}
+.cwtext1{
+  margin: 10px;
+}
+.cwcard1{
+  margin-top: 50px;
+  margin-left: 10px;
+  background-color: white;
+  height: 85%;
+  margin-bottom: 50px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.cwcard1:hover{
+  box-shadow: 0px 10px 30px gray;
+}
+.cwbkg1{
+  background-color: lightgray;
+  height: auto;
+  margin-right: 5px;
+  position: relative;
+}
+.cwtext2{
+  margin-top:
+}
+.cw2{
+  margin-bottom: 10px;
+}
+.link{
+  color: black;
+  text-decoration: none;
+}
+.link:hover{
+  color: black;
+  text-decoration: none;
+}

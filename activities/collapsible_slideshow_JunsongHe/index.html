@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Collapsible and Slideshow by JunsongHe</title>
+  </head>
+  <body>
+    <button type="button" name="button" class="btn btn-primary" data-toggle="collapse" data-target="#nyc">New York City</button>
+    <div class="collapse collapse1" id="nyc">
+      <p>New York City situated on one the world's largst natural harbors. It has five boroughts, each which is a separate county of the State of New York. The five borough are Brooklyn, Queens, Manhattan, The Broxn, and Staten Island.</p>
+      <figure>
+        <img src="images/img1.jpg" class="img-thumbnail nyimg1">
+        <img src="images/img2.jpg" class="img-thumbnail nyimg2">
+        <img src="images/img3.jpg" class="img-thumbnail nyimg3">
+        <img src="images/img4.jpg" class="img-thumbnail nyimg4">
+        <img src="images/img5.jpg" class="img-thumbnail nyimg5">
+      </figure>
+    </div>
+    <br><br><hr><br><br>
+    <div id="nycaccordion"><!--collapsible container-->
+      <div class="card">
+        <div class="card-header">
+          <h5><a data-toggle="collapse" data-parent="nycaccordion" href="#nyccontent">New York City</a></h5>
+        </div>
+
+        <div class="collapse" id="nyccontent">
+          <div class="card-block cwcard">
+            <p>New York City situated on one the world's largst natural harbors. It has five boroughts, each which is a separate county of the State of New York. The five borough are Brooklyn, Queens, Manhattan, The Broxn, and Staten Island.</p>
+            <figure>
+              <img src="images/img1.jpg" class="img-thumbnail nyimg1">
+              <img src="images/img2.jpg" class="img-thumbnail nyimg2">
+              <img src="images/img3.jpg" class="img-thumbnail nyimg3">
+              <img src="images/img4.jpg" class="img-thumbnail nyimg4">
+              <img src="images/img5.jpg" class="img-thumbnail nyimg5">
+            </figure>
+          </div>
+        </div>
+      </div><!--end of card-->
+    </div><!--end collapsible container-->
+    <br><br><hr><br><br>
+    <!--Brooklyn-->
+    <button type="button" name="button" class="btn btn-primary" data-toggle="collapse" data-target="#brooklyn">Brooklyn</button>
+    <div class="collapse collapseBor" id="brooklyn">
+      <figure>
+        <img src="images/img1.jpg" class="img-thumbnail">
+      </figure>
+    </div>
+    <!--Queens-->
+    <button type="button" name="button" class="btn btn-primary" data-toggle="collapse" data-target="#queens">Queens</button>
+    <div class="collapse collapseBor" id="queens">
+      <figure>
+        <img src="images/img2.jpg" class="img-thumbnail">
+      </figure>
+    </div>
+    <!--Manhattan-->
+    <button type="button" name="button" class="btn btn-primary" data-toggle="collapse" data-target="#manhattan">Manhattan</button>
+    <div class="collapse collapseBor" id="manhattan">
+      <figure>
+        <img src="images/img3.jpg" class="img-thumbnail">
+      </figure>
+    </div>
+    <!--The bronx-->
+    <button type="button" name="button" class="btn btn-primary" data-toggle="collapse" data-target="#bronx">The bronx</button>
+    <div class="collapse collapseBor" id="bronx">
+      <figure>
+        <img src="images/img4.jpg" class="img-thumbnail">
+      </figure>
+    </div>
+    <!--Staten island-->
+    <button type="button" name="button" class="btn btn-primary" data-toggle="collapse" data-target="#island">Staten island</button>
+    <div class="collapse collapseBor" id="island">
+      <figure>
+        <img src="images/img5.jpg" class="img-thumbnail">
+      </figure>
+    </div>
+    <br><br><hr><br><br>
+    <!--Carousels - slideshow-->
+    <div class="carousel slide carouselContainer" data-ride="carousel" id="demo">
+      <div class="carousel-item carouselSize active">
+        <img src="images/img1.jpg" class="img-thubnail">
+        <div class="carousel-caption captionCSS">
+          Brooklyn
+        </div>
+      </div>
+      <div class="carousel-item carouselSize">
+        <img src="images/img2.jpg" class="img-thumbnail">
+        <div class="carousel-caption captionCSS">
+          Queens
+        </div>
+      </div>
+      <div class="carousel-item carouselSize">
+        <img src="images/img3.jpg" class="img-thumbnail">
+        <div class="carousel-caption captionCSS">
+          Manhattan
+        </div>
+      </div>
+      <div class="carousel-item carouselSize">
+        <img src="images/img4.jpg" class="img-thumbnail">
+        <div class="carousel-caption captionCSS">
+          The bronx
+        </div>
+      </div>
+      <div class="carousel-item carouselSize">
+        <img src="images/img5.jpg" class="img-thumbnail">
+        <div class="carousel-caption captionCSS">
+          State island
+        </div>
+      </div>
+          <a href="#demo" data-slide="prev" class="carousel-control-prev"><span class="carousel-control-prev-icon"></span></a>
+          <a href="#demo" data-slide="next" class="carousel-control-next"><span class="carousel-control-next-icon"></span></a>
+
+          <ul class="carousel-indicators">
+            <li data-target="slideshow" class="active"></li>
+            <li data-target="slideshow"></li>
+            <li data-target="slideshow"></li>
+            <li data-target="slideshow"></li>
+            <li data-target="slideshow"></li>
+          </ul>
+    </div><!--end of carousel-->
+    <!-- left and right controls-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

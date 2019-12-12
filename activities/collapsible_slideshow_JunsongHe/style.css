@@ -1,0 +1,45 @@
+body{
+  padding: 10px;
+}
+.collapse1{
+  background-color: lightblue;
+  padding: 20px;
+}
+
+.collapse img{
+  width: 28%;
+  height:auto;
+  margin: 10px;
+}
+.cwcard{
+  padding: 10px;
+}
+.collapseBor figure{
+  image:top:20px;
+}
+.collapseBor img{
+  width: 50%;
+}
+.carouselSize{
+  width: 700px;
+  height: 500px;
+}
+.carouselSize img{
+  height: 100%;
+  width: 100%;
+}
+.carouselContainer{
+    width: 720px;
+    overflow: hidden;
+  }
+  .captionCSS{
+    color: white;
+    width: 30%;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+  }

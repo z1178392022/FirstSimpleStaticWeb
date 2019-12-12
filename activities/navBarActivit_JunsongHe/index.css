@@ -1,0 +1,13 @@
+body{
+  padding:20px;
+}
+h1{
+  padding: 20px;
+  text-align: center;
+}
+.cwtitle1{
+  color:red;
+}
+.cwhide{
+  float: right;
+}

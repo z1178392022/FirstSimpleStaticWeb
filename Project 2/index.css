@@ -1,0 +1,804 @@
+body{
+  margin-bottom: 0px;
+}
+.text{
+  text-align: center;
+}
+.overallbackgrand{
+  position: relative;
+  width: 1500px;
+  height: 1500px;
+  margin: auto;
+  background-color: lightgreen;
+  padding: 100px;
+}
+.subject1{
+  padding: 5%;
+  width: 1300px;
+  height: 100px;
+  margin:auto;
+  overflow: hidden;
+}
+.img1{
+  height: 120px;
+  width: 120px;;
+  border-radius: 30px;
+  position: relative;
+  float: left;
+  margin-left: 100px;
+  animation: sub1img1 5s infinite;
+}
+@keyframes sub1img1 {
+  0%{transform: scale(1);}
+  10%{transform: scale(1.5);}
+  20%{transform: scale(0.5);}
+  30%{transform: scale(1.5);}
+  40%{transform: scale(0.5);}
+  50%{transform: scale(1);}
+  60%{transform: scale(1);}
+  70%{transform: scale(1);}
+  100%{transform: scale(1);}
+
+}
+.subtext1{
+  font-size: 100px;
+  animation: sub1frames1 5s infinite;
+  color: red;
+  font-family: fantasy;
+  overflow: hidden;
+}
+.subtext{
+  margin-left: 330px;
+  margin-top: -60px;
+  height: 230px;
+  width: 1000px;
+}
+.subtext2{
+  font-size: 30px;
+  animation: sub1frames2 5s infinite;
+  color: black;
+  font-family: fantasy;
+  overflow: hidden;
+  margin-top: 50px;
+}
+@keyframes sub1frames1 {
+  0%{transform: translateY(0px) translateX(0px);}
+  20%{transform: translateY(200px) translateX(100px);}
+  40%{transform: translateY(0px) translateX(0px);}
+  100%{transform: translateY(0px) translateX(0px);}
+}
+@keyframes sub1frames2 {
+  0%{transform: translateY(0px) translateX(0px);}
+  20%{transform: translateY(-200px) translateX(100px);}
+  40%{transform: translateY(0px) translateX(0px);}
+  100%{transform: translateY(0px)  translateX(0px);}
+}
+.subject2{
+  overflow:hidden;
+  width: 1200px;;
+  height: 100px;
+  margin: auto;
+  margin-top: 10px;
+}
+.subject2index{
+  width: 3600px;;
+  height: 100px;
+  animation: sub2slideshow 8s infinite;
+  text-align: center;
+}
+.sub2text1{
+  width: 1200px;
+  float:left;
+  background-color: green;
+  color: white;
+  height: 100px;
+}
+.sub2text2{
+  width: 1200px;
+  float:left;
+  background-color: blue;
+  color: white;
+  height: 100px;
+}
+.sub2text3{
+  width: 1200px;
+  float:left;
+  background-color: red;
+  color: white;
+  height: 100px;
+}
+.sub2intext1{
+  font-size: 40px;
+}
+@keyframes sub2slideshow {
+  0%{margin-left: 0px;}
+  25%{margin-left: 0px;}
+  33%{margin-left: -1200px;}
+  55%{margin-left: -1200px;}
+  66%{margin-left: -2400px;}
+  85%{margin-left: -2400px;}
+  100%{margin-left: 0%;}
+}
+.subject3{
+    background-image:  linear-gradient( rgba(100,00,00,0.5), rgba(00,00,100,0.5)), url("images/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+}
+.sub3text1{
+  border: solid white 4px;
+  margin: 50px;;
+  width: 500px;
+  height: auto;
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 225, 225, 0.5);
+  padding: 50px;
+}
+.subject4{
+  background-image: linear-gradient( to right, rgba(00,225,00,0.5), rgba(00,00,225,0.5)), url("images/img2.jpg");
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.sub4text1{
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  color: white;
+  top: 150px;
+  left: 600px;
+}
+.hr1{
+  border: solid 1px black;
+}
+.subject5{
+  width: 1600px;
+  height: 1500px;
+  border: red solid 2px;
+  margin: auto;
+}
+.sub5img{
+  height: 300px;
+  width: 150px;
+  margin-bottom: 20px;
+}
+.sub5border{
+  float: left;
+  height: 600px;
+  width: 400px;
+  margin: 60px;
+  text-align: center;
+  line-height: 0.8;
+}
+.sub5h3{
+  margin-left: 50px;
+  position: static;
+}
+.sub5h31{
+  margin-left: 50px;
+  position: static;
+  margin-top: 700px;
+}
+.sub5text1{
+  color: blue;
+}
+.sub5text3{
+  font-size: 10px;
+}
+.sub5text5{
+  color: red;
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+.sub5text7{
+  margin-top: 200px;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  width: 150px;
+  text-decoration:none;
+}
+.sub5text7:hover{
+  background-color: lightgray;
+  color: black;
+  transition: 0.3s;
+}
+.sub5window{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right:0;
+  opacity: 0;
+  background-color: rgba(100, 100, 100, 0.5);
+  pointer-events: none;
+}
+.sub5window:target{
+  opacity: 1;
+  transition: ease-in 0.5s;
+  pointer-events: auto;
+}
+.sub5window1{
+  background-color: white;
+  width: 600px;
+  height: 500px;
+  left: 600px;
+  top: 200px;
+  position: absolute;
+  padding: 50px;
+  overflow: hidden;
+}
+.sub5sentence1{
+  right: 0px;
+  position: absolute;
+  text-decoration: none;
+  background-color: lightgray;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  top: 0px;
+  transition: 0.5s;
+  color: gray;
+}
+.sub5sentence1:hover{
+  background-color: black;
+  color: lightgray;
+}
+.sub5indeximg1{
+  height: 250px;
+  width: 100px;
+  margin: 50px;
+}
+.sub5sentence2{
+  color: gray;
+}
+.sub5sentence3{
+  border: 1.5px solid lightgray;
+  background-color: lightgray;
+}
+.sub5border1{
+  height: 250px;
+  width: 300px;
+  position: absolute;
+  right: 100px;
+  top:150px;
+}
+.sub5sentence4{
+  font-size: 20px;
+}
+.sub5sentence5, .sub5sentence6{
+  font-size: 13px;
+}
+.sub5sentence7{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.sub5sentence8{
+  color: red;
+}
+.sub5border2{
+  width:800px;
+  height: 140px;
+  background-color: rgba(100, 100, 100, 0.1);
+  margin-left: -50px;
+  margin-top: -40px;
+  padding: 30px;
+}
+.sub5sentence9{
+  color: black;
+  float: left;
+  margin-right: 200px;
+}
+.subsentence10{
+  color: black;
+  margin-left: 300px;
+  float: left;
+}
+.sub5sentence11{
+  background-color: white;
+  color:white;
+  border: solid 0.1px white;
+  height: 3px;
+  margin-right: 160px;
+  margin-bottom: 40px;
+}
+.sub5sentence12{
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+
+}
+.sub5sentence12:hover{
+  background-color: white;
+  color: black;
+  transition: 1s;
+}
+.subject6{
+  width: 1400px;
+  height: 400px;
+  background-color: black;
+  margin-left: 200px;
+  padding: 50px;
+  text-align: center;
+  margin-top: 100px;
+}
+.sub6text0{
+  color:white;
+  float: left;
+  margin-left: 220px;
+}
+.sub6text1{
+  color: white;
+  float: left;
+  margin-left: 220px;
+}
+.sub6text2{
+  color: white;
+  margin-left: 180px;
+  float: left;
+  width: 120px;
+  font-size: 14px;
+}
+.sub6text3{
+  color: white;
+  margin-left: 170px;
+  float: left;
+  width: 100px;
+  font-size: 14px;
+}
+.sub6text4{
+  color: white;
+  margin-left: 195px;
+  float: left;
+  width: 120px;
+  font-size: 14px;
+}
+.sub6text5{
+  color: white;
+  margin-left: 240px;
+  float: left;
+  width: 90px;
+  font-size: 14px;
+}
+.sub6text6{
+  margin: 40px;
+}
+.sub6text7{
+  color: white;
+  margin-left: 900px;
+}
+.sub6text8{
+  width: 500px;
+  height: 100px;
+  margin-left:900px;
+  margin-top: 50px;
+}
+.sub6text9{
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 15px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+.sub6text11{
+  color: white;
+  font-style: italic;
+  margin-top:-30px;
+}
+.sub6text12{
+  height: 50px;
+  width: 50px;
+}
+/*1024px*/
+@media only screen and (max-width:1050px) {
+  body{
+    margin-bottom: 0px;
+  }
+  .text{
+    text-align: center;
+  }
+  .overallbackgrand{
+    position: relative;
+    width: 900px;
+    height: 1200px;
+    margin: auto;
+    background-color: lightgreen;
+    padding: 20px;
+  }
+  .subject1{
+    width: 700px;
+    height: 100px;
+    margin:auto;
+    overflow: hidden;
+  }
+  .img1{
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+    position: relative;
+    float: left;
+    margin-left: -20px;
+    animation: sub1img1 5s infinite;
+  }
+  @keyframes sub1img1 {
+    0%{transform: scale(1);}
+    10%{transform: scale(1.5);}
+    20%{transform: scale(0.5);}
+    30%{transform: scale(1.5);}
+    40%{transform: scale(0.5);}
+    50%{transform: scale(1);}
+    60%{transform: scale(1);}
+    70%{transform: scale(1);}
+    100%{transform: scale(1);}
+
+  }
+  .subtext1{
+    font-size: 60px;
+    animation: sub1frames1 5s infinite;
+    color: red;
+    font-family: fantasy;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  .subtext{
+    margin-left: 150px;
+    margin-top: -60px;
+    height: 230px;
+    width: 700px;
+  }
+  .subtext2{
+    font-size: 20px;
+    animation: sub1frames2 5s infinite;
+    color: black;
+    font-family: fantasy;
+    overflow: hidden;
+    margin-top: 50px;
+  }
+  @keyframes sub1frames1 {
+    0%{transform: translateY(0px) translateX(0px);}
+    20%{transform: translateY(150px) translateX(50px);}
+    40%{transform: translateY(0px) translateX(0px);}
+    100%{transform: translateY(0px) translateX(0px);}
+  }
+  @keyframes sub1frames2 {
+    0%{transform: translateY(0px) translateX(0px);}
+    20%{transform: translateY(-120px) translateX(50px);}
+    40%{transform: translateY(0px) translateX(0px);}
+    100%{transform: translateY(0px)  translateX(0px);}
+  }
+  .subject2{
+    overflow:hidden;
+    width: 900px;
+    height: 100px;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .subject2index{
+    width: 2700px;;
+    height: 100px;
+    animation: sub2slideshow 8s infinite;
+    text-align: center;
+  }
+  .sub2text1{
+    width: 900px;
+    float:left;
+    background-color: green;
+    color: white;
+    height: 100px;
+  }
+  .sub2text2{
+    width: 900px;
+    float:left;
+    background-color: blue;
+    color: white;
+    height: 100px;
+  }
+  .sub2text3{
+    width: 900px;
+    float:left;
+    background-color: red;
+    color: white;
+    height: 100px;
+  }
+  .sub2intext1{
+    font-size: 40px;
+  }
+  @keyframes sub2slideshow {
+    0%{margin-left: 0px;}
+    25%{margin-left: 0px;}
+    33%{margin-left: -900px;}
+    55%{margin-left: -900px;}
+    66%{margin-left: -1800px;}
+    85%{margin-left: -1800px;}
+    100%{margin-left: 0%;}
+  }
+  .subject3{
+      background-image:  linear-gradient( rgba(100,00,00,0.5), rgba(00,00,100,0.5)), url("images/img1.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      position: relative;
+      height: 400px;
+      width: 900px;
+      margin: auto;
+  }
+  .sub3text1{
+    border: solid white 4px;
+    margin: 50px;;
+    width: 500px;
+    height: auto;
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 225, 225, 0.5);
+    padding: 50px;
+  }
+  .subject4{
+    background-image: linear-gradient( to right, rgba(00,225,00,0.5), rgba(00,00,225,0.5)), url("images/img2.jpg");
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+  }
+  .sub4text1{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 350px;
+  }
+  .hr1{
+    border: solid 1px black;
+  }
+  .subject5{
+    width: 900px;
+    height: 1500px;
+    border: red solid 2px;
+    margin: auto;
+  }
+  .sub5img{
+    height: 300px;
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  .sub5border{
+    float: left;
+    height: 600px;
+    width: 220px;
+    text-align: center;
+    line-height: 0.8;
+    margin:40px;
+  }
+  .sub5h3{
+    margin-left: 50px;
+    position: static;
+  }
+  .sub5h31{
+    margin-left: 50px;
+    position: static;
+  }
+  .sub5text1{
+    color: blue;
+  }
+  .sub5text3{
+    font-size: 10px;
+  }
+  .sub5text5{
+    color: red;
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+  .sub5text7{
+    margin-top: 200px;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    width: 150px;
+    text-decoration:none;
+  }
+  .sub5text7:hover{
+    background-color: lightgray;
+    color: black;
+    transition: 0.3s;
+  }
+  .sub5window{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    opacity: 0;
+    background-color: rgba(100, 100, 100, 0.5);
+    pointer-events: none;
+  }
+  .sub5window:target{
+    opacity: 1;
+    transition: ease-in 0.5s;
+    pointer-events: auto;
+  }
+  .sub5window1{
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    left: 100px;
+    top: 100px;
+    position: absolute;
+    padding: 50px;
+    overflow: hidden;
+  }
+  .sub5sentence1{
+    right: 0px;
+    position: absolute;
+    text-decoration: none;
+    background-color: lightgray;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    top: 0px;
+    transition: 0.5s;
+    color: gray;
+  }
+  .sub5sentence1:hover{
+    background-color: black;
+    color: lightgray;
+  }
+  .sub5indeximg1{
+    height: 250px;
+    width: 100px;
+    margin: 50px;
+  }
+  .sub5sentence2{
+    color: gray;
+  }
+  .sub5sentence3{
+    border: 1.5px solid lightgray;
+    background-color: lightgray;
+  }
+  .sub5border1{
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    right: 100px;
+    top:150px;
+  }
+  .sub5sentence4{
+    font-size: 20px;
+  }
+  .sub5sentence5, .sub5sentence6{
+    font-size: 13px;
+  }
+  .sub5sentence7{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .sub5sentence8{
+    color: red;
+  }
+  .sub5border2{
+    width:800px;
+    height: 140px;
+    background-color: rgba(100, 100, 100, 0.1);
+    margin-left: -50px;
+    margin-top: -40px;
+    padding: 30px;
+  }
+  .sub5sentence9{
+    color: black;
+    float: left;
+    margin-right: 200px;
+  }
+  .subsentence10{
+    color: black;
+    margin-left: 300px;
+    float: left;
+  }
+  .sub5sentence11{
+    background-color: white;
+    color:white;
+    border: solid 0.1px white;
+    height: 3px;
+    margin-right: 160px;
+    margin-bottom: 40px;
+  }
+  .sub5sentence12{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+
+  }
+  .sub5sentence12:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+  }
+  .subject6{
+    width: 800px;
+    height: 400px;
+    background-color: black;
+    padding: 40px;
+    margin:auto;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .sub6text0{
+    color: white;
+    float: left;
+    margin-left: 70px;
+  }
+  .sub6text1{
+    color: white;
+    float: left;
+    margin-left: 90px;
+  }
+  .sub6text2{
+    color: white;
+    margin-left: 35px;
+    float: left;
+    width: 120px;
+    font-size: 14px;
+  }
+  .sub6text3{
+    color: white;
+    margin-left: 35px;
+    float: left;
+    width: 100px;
+    font-size: 14px;
+  }
+  .sub6text4{
+    color: white;
+    margin-left: 65px;
+    float: left;
+    width: 120px;
+    font-size: 14px;
+  }
+  .sub6text5{
+    color: white;
+    margin-left: 100px;
+    float: left;
+    width: 90px;
+    font-size: 14px;
+  }
+  .sub6text6{
+    margin: 40px;
+  }
+  .sub6text7{
+    color: white;
+    margin-left: 350px;
+  }
+  .sub6text8{
+    width: 500px;
+    height: 100px;
+    margin-left:320px;
+    margin-top: 10px;
+  }
+  .sub6text9{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 15px;
+    border-radius: 100px;
+    overflow: hidden;
+  }
+  .sub6text11{
+    color: white;
+    font-style: italic;
+    margin-top: 50px;
+    margin-left: 200px;
+    position: absolute;
+  }
+  .sub6text12{
+    height: 50px;
+    width: 50px;
+  }
+}

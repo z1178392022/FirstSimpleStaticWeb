@@ -1,0 +1,31 @@
+body{
+  background-color:#ccff66;
+}
+.title{
+  font-size:5em; color: green; text-align:center; text-shadow: 5px 5px 5px;
+}
+.author{
+  text-align:right; color: #6666ff; font-style:italic;
+}
+.intro{
+  padding:50px; font-size:200%;
+}
+p.Intro::first-letter{
+  font-size:2.5em; color:#ff6666;
+}
+.img1{
+ border: solid #006600 10px; margin: 10px
+}
+.img2{
+  border:solid #006600 10px; margin: 10px
+}
+.img3{
+  border:solid #006600 10px; margin: 10px
+  }
+.figurecaption1{
+  font-size: 100%; text-align:left; color: #660066; font-style: italic
+}
+.p1{
+  text-align: center; color:red; font-size:100%; font-style: bold;
+  padding-top: 100px;
+}

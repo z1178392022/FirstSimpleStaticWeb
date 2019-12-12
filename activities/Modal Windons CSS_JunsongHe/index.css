@@ -1,0 +1,235 @@
+body{
+  padding:10px;
+}
+.linkmodal{
+  text-align:center;
+  background-color:orange;
+  font-size:20px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius:20px;
+}
+.linkmodal:hover{
+  background-color: lightyellow;
+  color:orange;
+}
+.modalwindow{
+  position: fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  opacity: 0;
+  background-color: rgba(100, 100, 100, 0.5);
+  pointer-events: none;
+}
+.modalwindow:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in 0.5s;
+}
+.msgtext{
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  background-color: white;
+  top: 200px;
+  left: 560px;
+  padding: 20px;
+}
+.msgtext h3{
+  background-color: gray;
+  padding: 10px;
+  color: white;
+}
+.msgtext img{
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 10%;
+}
+.modal-close{
+  padding: 12px;
+  color: gray;
+  text-decoration: none;
+}
+.modal-close:hover{
+  color: red;
+  text-decoration: underline;
+}
+/*hw start*/
+.hwoverall{
+  border: solid red 2px;
+  height: 700px;
+  width: auto;
+}
+.hwctn1{
+  height: 650px;
+  width: 300px;
+  float: left;
+  margin: 20px;
+}
+.hwctn2{
+  height: 650px;
+  width: 300px;
+  float: left;
+  margin: 20px;
+}
+.hwimg1{
+  margin: 30px;
+  height: 500px;
+  width: 230px;
+}
+.hwtext1{
+  text-align:center;
+}
+.hwlink:hover{
+  background-color: lightgray;
+  color: black;
+  transition: ease-in 0.5s;
+}
+.hwlink{
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size:20px;
+}
+.hwwindow1{
+  position: fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  opacity: 0;
+  background-color: rgba(100, 100, 100, 0.5);
+  pointer-events: none;
+}
+.hwwindow1:target{
+  pointer-events: auto;
+  opacity: 1;
+  transition: ease-in 0.5s;
+}
+.hwmsg1{
+  background-color: white;
+  height: 550px;
+  width: 600px;
+  top: 200px;
+  left: 560px;
+  position: absolute;
+  padding: 40px;
+}
+.hwsentence1{
+  top: 0px;
+  right: 0;
+  font-size: 2em;
+  width: 40px;
+  background-color: lightgray;
+  color: gray;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+}
+.hwsentence1:hover{
+  background-color: black;
+  color: white;
+  transition: ease-in 0.2s;
+}
+.hwsentence2{
+  color: rgb(200, 129, 129);
+}
+.hwsentence3{
+  color: lightgray;
+  border: solid lightgray 1.5px;
+}
+.hwsentence4{
+  position: absolute;
+  height: 300px;
+  width: 150px;
+  padding: 50px;
+}
+.hwsentence5{
+  text-align: center;
+  margin-left: 230px;
+  margin-top: 50px;
+  font-size: 25px;
+}
+.hwsentence6{
+  text-align: center;
+  margin-left: 150px;
+  font-size: 15px;
+}
+.hwsentence7{
+  text-align: center;
+  margin-left: 95px;
+  font-size: 15px;
+}
+.hwsentence8{
+  text-align: center;
+  margin: 40px;
+  margin-left: 70px;
+}
+.hwsentence9{
+  text-align: center;
+  margin-left: 120px;
+  color: red;
+}
+.hwsentence10{
+  background-color: rgba(100, 100, 100, 0.1);
+  padding: 10px;
+  height: 145px;
+  margin-left: -40px;
+  margin-right: -40px;
+}
+.hwsentence11{
+  margin-left: 40px;
+  float: left;
+  font-size: 15px;
+}
+.hwsentence12{
+  margin-right: 40px;
+  float: right;
+  font-size: 15px;
+}
+.hwsentence13{
+  color: white;
+  background-color:white;
+  border: solid white 2px;
+  width: 600px;
+}
+.hwsentence14{
+  background-color: white;
+  padding: 12px;
+  float: left;
+  margin-left: 40px;
+  font-size: 15px;
+  border: red solid 1px;
+  margin-top: 10px;
+  color: black;
+}
+.hwsentence15{
+  text-decoration: none;
+  color:black;
+}
+.hwsentence16{
+  padding: 12px;
+  background-color: black;
+  float: right;
+  margin-right: 40px;
+  font-size: 15px;
+  border: black solid 1px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.hwsentence17{
+  text-decoration: none;
+  color: white;
+}
+.hwsentence18{
+  text-align: center;
+  margin-left: 210px;
+  margin-top: 50px;
+  font-size: 25px;
+}

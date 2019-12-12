@@ -1,0 +1,109 @@
+*{box-sizing: border-box;}
+.slide1{
+  height: 500px;
+  width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+.slidewrapper{
+  width: 3200px; /*--4 images times width of slide--*/
+  height: 500px;
+  animation: slideshow 10s infinite;
+}
+@keyframes slideshow {
+  0%{margin-left: 0px;}
+  25%{margin-left: -800px;}
+  50%{margin-left: -1600px;}
+  75%{margin-left: -2400px;}
+  100%{margin-left: 0px;}
+}
+.slide{
+  float:left;
+  height: 100%;
+  width: 25%; /*--100%/4images=25%--*/
+  font-size: 20em;
+  text-align: center;
+}
+.slide:nth-child(1){
+  color: red;
+  background-color: pink;
+}
+.slide:nth-child(2){
+  color: red;
+  background-color: blue;
+}
+.slide:nth-child(3){
+  color: red;
+  background-color: lightblue;
+}
+.slide:nth-child(4){
+  color: red;
+  background-color: gray;
+}
+.slidewrapper2{
+  width: 3200px; /*--4 images times width of slide--*/
+  height: 500px;
+  animation: slideshow2 10s infinite;
+}
+@keyframes slideshow2 {
+  0%{margin-left: 0px;}
+  33.333%{margin-left: -800px;}
+  66.666%{margin-left: -1600px;}
+  100%{margin-left: -2400px;}
+}
+.slidewrapper3{
+  width: 3200px;
+  height: 500px;
+  animation: slideshow3 10s infinite;
+}
+@keyframes slideshow3 {
+    0%{margin-left: 0px;}
+    10%{margin-left: 0px;}
+    33.33%{margin-left: -800px;}
+    43.33%{margin-left: -800px;}
+    53.33%{margin-left: -800px;}
+    66.66%{margin-left: -1600px;}
+    76.66%{margin-left: -1600px;}
+    86.66%{margin-left: -1600px;}
+    100%{margin-left: -2400px;}
+}
+img{
+  height: 500px;
+  width: 500px;
+}
+.sld{
+  float:left;
+  height: 100%;
+  width: 25%; /*--100%/4images=25%--*/
+  font-size: 20em;
+  text-align: center;
+}
+
+/*--CW--*/
+.slidewrapper5{
+  width: 4000px;
+  height: 500px;
+  animation: slideshow5 10s infinite;
+}
+@keyframes slideshow5 {
+    0%{margin-left: 0px;}
+    5%{margin-left: 5px;}
+    20%{margin-left: -800px;}
+    25%{margin-left: -800px;}
+    40%{margin-left: -1600px;}
+    45%{margin-left: -1600px;}
+    60%{margin-left: -2400px;}
+    65%{margin-left: -2400px;}
+    80%{margin-left: -3200px;}
+    85%{margin-left: -3200px;}
+    89%{margin-left: -2400px;}
+    93%{margin-left: -1600px;}
+    96%{margin-left: -800px;}
+    100%{margin-left: 0px;}
+}
+.sldcw{
+  float:left;
+  height: 100%;
+  width: 20%; /*--100%/5images=20%--*/
+  text-align: center;
+}

@@ -1,0 +1,162 @@
+body{
+  padding: 20px;
+}
+h1{
+  padding: 20px;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+.p3bd3:hover{
+  text-decoration: none;
+}
+.pj3text1{
+  color:white;
+}
+.p3img3{
+  width: 100%;
+  height: 400px;
+}
+.p3img1{
+ height: auto;
+}
+.p3bd{
+  padding: 20px;
+}
+.p3text1{
+  color: black;
+}
+.p3bd1{
+  background: linear-gradient(white, lightgray);
+  margin: 20px;
+}
+.p3bd1:hover{
+  filter: invert(100%);
+  transition:0.5s;
+}
+.p3contact{
+  background-color: black;
+  height: auto;
+  margin-top: 100px;
+  margin-bottom: -20px;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+.p3info1{
+  background-color: white;
+  border: 1px white solid;
+}
+.p3info3{
+  width: 100%;
+  height: auto;
+}
+.col-3{
+  height: 200px;
+}
+.p3info4{
+  width: auto;
+  text-align: right;
+  font-size: 20px;
+  height: 150px;
+}
+.p3info5{
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 30px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.p3info6{
+  width: 100%;
+  height: 100%;
+}
+.p3info7{
+  list-style: none;
+  float: right;
+}
+.p3info8{
+  margin-top: 100px;
+  bottom: 0px;
+}
+.p3info9{
+  color: white;
+}
+.p3text2{
+  animation: p3animation1 2s infinite alternate;
+  text-shadow: 5px 2px 5px black;
+  color: white;
+  font-size: 70px;
+}
+@keyframes p3animation1 {
+  0%{transform:  rotate3d(0, 0, 1, 0deg);}
+  50%{transform:  rotate3d(0, 0, 1, 5deg);}
+  100%{transform: rotate3d(0, 0, 1, -5deg);}
+}
+.p3text3{
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+  animation: p3animation2 5s infinite alternate;
+  box-shadow: 0px 0px 5px 5px gray;
+  margin-top: 50px;
+}
+.p3text4{
+  text-align: center;
+  margin-bottom: 100px;
+}
+.p3ex2{
+    box-shadow: 5px 5px 5px lightgray;
+}
+.p3text5{
+  background-color: lightgray;
+  padding: 40px;
+  height: 100%;
+  font-size: 20px;
+}
+.p3text6{
+  width: 100%;
+  height: 100%;
+}
+.p3text7{
+  margin: auto;
+}
+@keyframes p3animation2 {
+  0%{transform: scale(1);}
+  50%{transform: scale(1.1);}
+  100%{transform: scale(0.9);}
+}
+.p3demo1{
+  margin: auto;
+  margin-top: 100px;
+}
+.p3demo2{
+  height: 100%;
+}
+.p3demo2 img{
+  width: 100%;
+  height: 100%;
+}
+.p3demo3{
+    color: white;
+    width: auto;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+
+@media only screen and (max-width:767px) {
+.p3demo2 {
+    height: 300px;
+  }
+}
